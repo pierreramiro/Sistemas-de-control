@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="12/03/20||18:07:54" using="Simscape Multibody Link Version 7.2" from="SolidWorks 28.3.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Robot1GDL" uid="Robot1GDL" version="120">
+<AssemblyFile name="Robot1GDL.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="base-1" uid="base-1" grounded="true" entityUid="base" rigid="true">
+<Transform>
+<Rotation>-1 -1.5115150974929717e-16 3.1016855750465311e-15 1.9253838344667996e-16 -0.99999999999999989 -3.515236822396126e-15 3.1780134079895106e-15 -3.5178141806553824e-15 0.99999999999999978</Rotation>
+<Translation>0.085231936147681014 0.1385371845528586 0.10309903356038523</Translation>
+</Transform>
+<Instance name="TopeInferior-1" uid="TopeInferior-1" entityUid="TopeInferior*:*Default">
+<Transform>
+<Rotation>0.36772719911019291 -3.6606877987885356e-15 0.92993371109696443 -0.92993371109696443 3.7677377817713497e-15 0.36772719911019291 -4.8498808489082414e-15 -1 -2.0186973284223712e-15</Rotation>
+<Translation>0.041573302847119582 0.13190209870235578 0.10990096643961504</Translation>
+</Transform>
+</Instance>
+<Instance name="TopeInferior-2" uid="TopeInferior-2" entityUid="TopeInferior*:*Default">
+<Transform>
+<Rotation>0.69748817421296594 -3.6062512829416153e-15 0.71659629278490078 -0.71659629278490078 3.7454509211298413e-15 0.69748817421296594 -5.1992938679815489e-15 -1 0</Rotation>
+<Translation>-0.016567118194633246 0.13190209870233421 0.10990096643961526</Translation>
+</Transform>
+</Instance>
+<Instance name="TopeInferior-3" uid="TopeInferior-3" entityUid="TopeInferior*:*Default">
+<Transform>
+<Rotation>-0.075108943216247934 -3.6826180045170115e-15 0.99717533395533731 -0.99717533395533731 3.8307056667186253e-15 -0.075108943216247934 -3.5432876559063484e-15 -1 -3.9599360928839178e-15</Rotation>
+<Translation>0.041573302847164213 0.011172270403431522 0.10990096643961463</Translation>
+</Transform>
+</Instance>
+<Instance name="TopeInferior-4" uid="TopeInferior-4" entityUid="TopeInferior*:*Default">
+<Transform>
+<Rotation>0.36772719911019291 -3.6606877987885356e-15 0.92993371109696443 -0.92993371109696443 3.7677377817713497e-15 0.36772719911019291 -4.8498808489082414e-15 -1 -2.0186973284223712e-15</Rotation>
+<Translation>-0.016567118194633232 0.01117227040341004 0.10990096643961482</Translation>
+</Transform>
+</Instance>
+<Instance name="MotorReductor_DFROBOT-1" uid="MotorReductor_DFROBOT-1" entityUid="MotorReductor_DFROBOT" rigid="true">
+<Transform>
+<Rotation>-1 1.9253838344667996e-16 3.1780134079895106e-15 -1.5115150974929717e-16 -0.99999999999999989 -3.5178141806553824e-15 3.1016855750465311e-15 -3.515236822396126e-15 0.99999999999999978</Rotation>
+<Translation>0.0055884371117784493 0.15297530833317277 0.16270604630458735</Translation>
+</Transform>
+<Instance name="Motorreductor-1" uid="Motorreductor-1" entityUid="Motorreductor*:*Default">
+<Transform>
+<Rotation>0 1.9428902930940235e-16 -0.99999999999999989 -1.9917753390701159e-16 -1 -1.942890293094023e-16 -0.99999999999999989 1.9917753390701161e-16 0</Rotation>
+<Translation>-0.018064655214487198 0.036138123780314876 -0.00310507986497216</Translation>
+</Transform>
+</Instance>
+<Instance name="Encoder-1" uid="Encoder-1" grounded="true" entityUid="Encoder*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.031997730567053267 -0.0094323339004765278 -0.070554836726118564</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Chasis-1" uid="Chasis-1" grounded="true" entityUid="Chasis*:*Default">
+<Transform>
+<Rotation>0 3.5678091717861129e-15 1 1 -3.4889039805838762e-15 0 3.4889039805838762e-15 1 -3.5678091717861129e-15</Rotation>
+<Translation>0.012503092326265466 0.071537184552858124 0.10990096643961496</Translation>
+</Transform>
+</Instance>
+<Instance name="Mesa-1" uid="Mesa-1" entityUid="Mesa*:*Default">
+<Transform>
+<Rotation>1 2.8955890292480514e-15 0 0 -3.4449324271023539e-15 -1 -2.8955890292480518e-15 1 -3.4449324271023535e-15</Rotation>
+<Translation>0.013231936147680659 0.071537184552858873 -0.10309903356038493</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="link1-1" uid="link1-1" entityUid="link1" rigid="true">
+<Transform>
+<Rotation>0.99999798989372379 1.6016874299474623e-15 0.002005045763101493 1.5984411027106789e-15 -0.99999999999999989 1.6206813495617421e-15 0.002005045763101493 -1.6174731442594324e-15 -0.99999798989372368</Rotation>
+<Translation>0.065650967914340969 0.0097528155123453083 0.24657127359404346</Translation>
+</Transform>
+<Instance name="EjeMotorreductor-1" uid="EjeMotorreductor-1" grounded="true" entityUid="EjeMotorreductor*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0070592723519538741 0.0017528155123455683 0.0092854464228975253</Translation>
+</Transform>
+</Instance>
+<Instance name="Eslabon-1" uid="Eslabon-1" entityUid="Eslabon*:*Default">
+<Transform>
+<Rotation>-0.51049210846050308 2.2204460492503131e-16 -0.85988243801088893 -0.85988243801088871 0 0.51049210846050286 1.1340754724198376e-16 1 1.9060274192295168e-16</Rotation>
+<Translation>0.0070592723519538741 0.021752815512345543 0.01428544642289753</Translation>
+</Transform>
+</Instance>
+<Instance name="SoporteEslabon-1" uid="SoporteEslabon-1" entityUid="SoporteEslabon*:*Default">
+<Transform>
+<Rotation>-1 0 2.2161092405603706e-16 0 -1 0 2.2161092405603706e-16 0 1</Rotation>
+<Translation>0.0070592723519538741 0.030252815512345564 0.0092854464228975253</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-1</Uid>
+<Uid>MotorReductor_DFROBOT-1</Uid>
+<Uid>Motorreductor-1</Uid>
+</InstancePath>
+<Position>0.025399999999999978 0.013699999999999999 -0.011149999999999965</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>link1-1</Uid>
+<Uid>EjeMotorreductor-1</Uid>
+</InstancePath>
+<Position>0 0.014499999999999996 0</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-1</Uid>
+<Uid>MotorReductor_DFROBOT-1</Uid>
+<Uid>Motorreductor-1</Uid>
+</InstancePath>
+<Position>0.025399999999999978 0.013699999999999999 -0.011149999999999965</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>link1-1</Uid>
+<Uid>EjeMotorreductor-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="base" uid="base" version="251">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="base.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="MotorReductor_DFROBOT" uid="MotorReductor_DFROBOT" version="2481">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="MotorReductor_DFROBOT.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="link1" uid="link1" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="link1.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="Chasis" uid="Chasis*:*Default" version="4794">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Chasis.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.083415389746197971</Mass>
+<CenterOfMass>8.6256592712158149e-08 0.006651247160729048 0.00013621461692763491</CenterOfMass>
+<Inertia>9.7185234542647293e-05 0.00022886992069896759 0.00014702866844197522 -2.0771529790328504e-07 2.7587433731195546e-07 -1.0248308737051534e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Chasis_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Diffuse r="0.20862745098039215" g="0.20862745098039215" b="0.20862745098039215" a="1"/>
+<Specular r="0.014901960784313726" g="0.014901960784313726" b="0.014901960784313726" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="EjeMotorreductor" uid="EjeMotorreductor*:*Default" version="202">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="EjeMotorreductor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0023015065444392702</Mass>
+<CenterOfMass>0 0.0068026706782623163 0</CenterOfMass>
+<Inertia>4.4808442368835966e-08 7.780904514688216e-09 4.3592268689250122e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="EjeMotorreductor_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.51764705882352935" g="0.36862745098039218" b="0.26666666666666666" a="1"/>
+<Diffuse r="0.51764705882352935" g="0.36862745098039218" b="0.26666666666666666" a="1"/>
+<Specular r="0.36235294117647054" g="0.25803921568627453" b="0.18666666666666665" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Encoder" uid="Encoder*:*Default" version="143">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Encoder.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.026343146658654795</Mass>
+<CenterOfMass>0.025057310856107105 0.037517479311904543 0.060822020252488326</CenterOfMass>
+<Inertia>1.1195741600503189e-05 1.1158287932450252e-05 1.9688653350018512e-06 -4.3137076407060501e-07 1.5898225180063204e-08 1.3890068727531973e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Encoder_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Eslabon" uid="Eslabon*:*Default" version="143">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Eslabon.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.14486914560791994</Mass>
+<CenterOfMass>0 0.075000000000000011 0</CenterOfMass>
+<Inertia>0.00027304438576492734 2.8294755001546871e-06 0.00027304438576492734 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Eslabon_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Specular r="0.39803921568627448" g="0.41176470588235292" b="0.46862745098039216" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Mesa" uid="Mesa*:*Default" version="130">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Mesa.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.8592</Mass>
+<CenterOfMass>0 0.10000000000000001 0</CenterOfMass>
+<Inertia>0.018638649600000005 0.012443347200000001 0.019532697600000006 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Mesa_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.9882352941176471" g="0.73725490196078436" b="0.51764705882352935" a="1"/>
+<Diffuse r="0.9882352941176471" g="0.73725490196078436" b="0.51764705882352935" a="1"/>
+<Specular r="0.49411764705882355" g="0.36862745098039218" b="0.25882352941176467" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motorreductor" uid="Motorreductor*:*Default" version="2042">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Motorreductor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.022789864475820022</Mass>
+<CenterOfMass>0.008210166411990974 0.0090947152537067082 -0.011150333945665471</CenterOfMass>
+<Inertia>1.4277009713905935e-06 7.5309052405474795e-06 7.2885472474560313e-06 -2.9249743294742376e-12 -1.7577769576149074e-10 -9.5545350892364323e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Motorreductor_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="0" a="1"/>
+<Diffuse r="1" g="1" b="0" a="1"/>
+<Specular r="0.29999999999999999" g="0.29999999999999999" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SoporteEslabon" uid="SoporteEslabon*:*Default" version="830">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="SoporteEslabon.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0044495327594277689</Mass>
+<CenterOfMass>0 0.0078368890475355897 0.0029902779030849683</CenterOfMass>
+<Inertia>3.5028439437068389e-07 3.4634669570985014e-07 2.4866335181643736e-07 5.4674001076715232e-08 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SoporteEslabon_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.69411764705882351" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.69411764705882351" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Specular r="0.34705882352941175" g="0.049019607843137254" b="0.049019607843137254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TopeInferior" uid="TopeInferior*:*Default" version="356">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TopeInferior.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00070582458078559591</Mass>
+<CenterOfMass>0 0.0060959653872529425 0</CenterOfMass>
+<Inertia>1.6192402237539305e-08 1.1403693375159634e-08 1.6192402237539305e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="TopeInferior_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Diffuse r="0.20862745098039215" g="0.20862745098039215" b="0.20862745098039215" a="1"/>
+<Specular r="0.014901960784313726" g="0.014901960784313726" b="0.014901960784313726" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
