@@ -34,5 +34,5 @@ else
     fprintf("No observable\n")
 end
 polos=[-4/Tes;-20/Tes];
-polos=exp(polos*5);
-L=acker(Gk',C',polos)';
+polos=exp(polos*6);%polos 6 1veces más rapidos
+Ke=acker(Gk',C',polos)';
